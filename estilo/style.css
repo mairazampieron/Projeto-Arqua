@@ -114,6 +114,7 @@ h4 {
 }
 
 span {
+    display: flex;
     font-size: 1.5rem;
     padding: 20px;
     color: var(--cor5);
@@ -146,8 +147,7 @@ footer {
 .cognito {
     height: 500px !important;
     overflow: hidden !important;  
-    border-radius: 10px;
-   
+  
 }
 
 .cog-branding__powered {
@@ -160,6 +160,7 @@ footer {
 
 .cog-form{
     border-radius: 10px !important;
+    margin-top: 20px !important;
 } 
 
 @media screen (max-device-width: 750px) {
