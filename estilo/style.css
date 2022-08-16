@@ -169,8 +169,18 @@ footer {
     margin-top: 20px !important;
 } 
 
-@media screen (max-device-width: 350px) {
-    width:100%;
+@media (max-width: 350px) {
+    body {width:100%;}
+
+    aside {
+        padding: 3px 10px 10px 10px;
+        margin: 20px 10px;
+    }
+    
 } 
+
+@media (max-width:768px) {
+    width:100%;
+}
     
 
